@@ -1,25 +1,5 @@
 # dphil-thesis-template
 
-Obsidian tagging system:
-
-General tags:
-
-- #people
-- #methodology
-- #todo
-- #lectures
-- #reading
-- #ideas
-- #presentations
-- #deadlines
-
-Chapter tags:
-
-Examples:
-
-- #chapter-lifestyle
-- #chapter-infection
-- #chapter-occular
 
 
 ## General Organisation
@@ -42,3 +22,25 @@ Examples:
   - Data
   - Figures
   - Manuscripts
+
+
+### Obsidian Vault
+**Primary Note-Taking Platform**
+- Central repository for all research notes
+- Mobile sync capability for note access on phone
+- Tagging system:
+  - General tags:
+    - #people - Track collaborators, supervisors, and key contacts
+    - #methodology - Research methods and protocols
+    - #todo - Tasks and action items
+    - #lectures - Course and seminar notes
+    - #reading - Literature review and paper summaries
+    - #ideas - Research concepts and brainstorming
+    - #presentations - Talk and poster materials
+    - #deadlines - Important dates and milestones
+  - Chapter tags:
+    - Format: #chapter-[topic]
+    - Examples:
+      - #chapter-lifestyle
+      - #chapter-infection 
+      - #chapter-occular
