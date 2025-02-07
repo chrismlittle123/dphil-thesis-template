@@ -44,3 +44,14 @@
       - #chapter-lifestyle
       - #chapter-infection 
       - #chapter-occular
+
+
+# TODO:
+
+- Install Radian to get an R console in Cursor
+- Get a R notebook running
+- Set up basic pipeline tests
+- Agree on a file naming convention for data and scripts (script name should be folder for processed data)
+    -  Data Processing Scripts
+    -  Transform Scripts
+    -  Figure Scripts
