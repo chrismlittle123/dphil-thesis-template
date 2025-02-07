@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "01c1dd7921681a91",
+    "id": "197e1785651fe33f",
     "type": "split",
     "children": [
       {
-        "id": "dbb6f87f827a75fa",
+        "id": "727cae3e588c8b67",
         "type": "tabs",
         "children": [
           {
-            "id": "4616cb4bbf879e1a",
+            "id": "0d50cea49af6bd48",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c44e6f7c50bdf04c",
+    "id": "1598170d12e3cf42",
     "type": "split",
     "children": [
       {
-        "id": "68c60266c39b8a2d",
+        "id": "3e038187eafb625b",
         "type": "tabs",
         "children": [
           {
-            "id": "b8a17ae01fd34f6d",
+            "id": "4042a8c20560766a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "aaeac111095124ee",
+            "id": "3dba3e386933342d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#chapter1 ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "9f867590f7195116",
+            "id": "ef9d8da81e4b8d6f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "6b20d7bada5661aa",
+    "id": "6b6aa945102a6a01",
     "type": "split",
     "children": [
       {
-        "id": "bdb97839711ce61a",
+        "id": "be9527f3c01bdbc4",
         "type": "tabs",
         "children": [
           {
-            "id": "c692759750d7f90e",
+            "id": "dcc82dac0e8e9062",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "4c194cdc19436780",
+            "id": "3312ed0a877aed4c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,7 +116,7 @@
             }
           },
           {
-            "id": "66e5d8aa24607809",
+            "id": "c87d1594f0010792",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "a9bbedc02e4f39bd",
+            "id": "c6bc1f8a217ea4d0",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -158,40 +158,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "b8a17ae01fd34f6d",
-  "lastOpenFiles": [
-    "intro paragraph idea.md",
-    "cat diary entry 47.md",
-    "Home/Ideas",
-    "Home",
-    "amsterdam workshop notes.md",
-    "Untitled 1.canvas",
-    "3am thoughts about pasta.md",
-    "boston conf thing.md",
-    "2nd tue thing.md",
-    "Untitled.canvas",
-    "battery life.md",
-    "aaaaa.md",
-    "phd student species guide.md",
-    "rejected paper titles.md",
-    "lab meeting memes.md",
-    "science jokes lol.md",
-    "dream about statistics.md",
-    "quantum grocery list.md",
-    "secret message decoded.md",
-    "CONSPIRACY THEORY!!!.md",
-    "methods symposium notes.md",
-    "virtual conf notes dec.md",
-    "epi conf thing sept.md",
-    "misc resources.md",
-    "software stuff.md",
-    "twitter threads save.md",
-    "papers to download.md",
-    "random bookmarks.md",
-    "youtube stuff.md"
-  ]
+  "active": "4042a8c20560766a",
+  "lastOpenFiles": []
 }
