@@ -1,0 +1,1 @@
+Female participants seem to respond better to group therapy but worse to nicotine patches? Double check these numbers. 

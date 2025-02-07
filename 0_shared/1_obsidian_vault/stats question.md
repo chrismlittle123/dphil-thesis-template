@@ -1,0 +1,1 @@
+Should I use mixed effects model to account for repeated measures? Ask Sarah in stats consulting. 

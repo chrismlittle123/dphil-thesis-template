@@ -6,7 +6,6 @@ main_folders=(
     "2_data"
     "3_analysis"
     "4_manuscript"
-    "5_automation"
 )
 
 # Define section structure for each main folder

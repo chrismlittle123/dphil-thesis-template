@@ -1,0 +1,1 @@
+Rainy days = more reported cravings in app data. Download local weather data to control for this? 

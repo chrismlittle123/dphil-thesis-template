@@ -1,0 +1,1 @@
+Participant ID 4721 quit for 6 months then started again exactly on their birthday. Worth following up? 

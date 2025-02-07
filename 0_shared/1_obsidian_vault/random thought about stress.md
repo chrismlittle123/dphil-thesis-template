@@ -1,0 +1,1 @@
+Stress levels during covid might explain the weird spike in relapse rates during 2020. Need to control for this in analysis. 
