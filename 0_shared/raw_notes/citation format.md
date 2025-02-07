@@ -1,0 +1,1 @@
+Journal wants APA 7th edition. Remember to update Zotero settings. 

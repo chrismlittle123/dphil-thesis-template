@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "8e37fe72e3f1cd69",
+    "id": "d16621d35a8a6b4d",
     "type": "split",
     "children": [
       {
-        "id": "0dfe6cb770d74b92",
+        "id": "90b3943272227563",
         "type": "tabs",
         "children": [
           {
-            "id": "2d2646c5773a6f09",
+            "id": "d1290fcb43e44578",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "af3f426de5846adf",
+    "id": "96f5ab7e33bc79bf",
     "type": "split",
     "children": [
       {
-        "id": "305a38d05639d134",
+        "id": "308387a547a295d6",
         "type": "tabs",
         "children": [
           {
-            "id": "b5379ea55238d6f0",
+            "id": "daf5e1393ba6379c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "9da6fb2e6afa88f9",
+            "id": "0169dbda323847b5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "6f3ba97ce167385d",
+            "id": "391978a90f1102c5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "2311b24f92315fa7",
+    "id": "ce0316ebec39c237",
     "type": "split",
     "children": [
       {
-        "id": "42459686fae71ac4",
+        "id": "b9d81258964c28c3",
         "type": "tabs",
         "children": [
           {
-            "id": "1d0404ef9ce491aa",
+            "id": "a9dfe2646679ccf5",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "4b5f0fdee7d42a88",
+            "id": "460b8c7c2755ede4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,7 +116,7 @@
             }
           },
           {
-            "id": "27df7ded4bc09502",
+            "id": "d5507c6aa9bda0f7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "464f23e613a58ab1",
+            "id": "5f68ba19a811171f",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -161,36 +161,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d2646c5773a6f09",
+  "active": "d1290fcb43e44578",
   "lastOpenFiles": [
-    "0_shared/1_obsidian_vault/rejected paper titles.md",
-    "0_shared/1_obsidian_vault/lab meeting memes.md",
-    "0_shared/1_obsidian_vault/science jokes lol.md",
-    "0_shared/1_obsidian_vault/dream about statistics.md",
-    "0_shared/1_obsidian_vault/quantum grocery list.md",
-    "0_shared/1_obsidian_vault/secret message decoded.md",
-    "0_shared/1_obsidian_vault/cat diary entry 47.md",
-    "0_shared/1_obsidian_vault/3am thoughts about pasta.md",
-    "0_shared/1_obsidian_vault/CONSPIRACY THEORY!!!.md",
-    "0_shared/1_obsidian_vault/methods symposium notes.md",
-    "0_shared/1_obsidian_vault/boston conf thing.md",
-    "0_shared/1_obsidian_vault/amsterdam workshop notes.md",
-    "0_shared/1_obsidian_vault/virtual conf notes dec.md",
-    "0_shared/1_obsidian_vault/epi conf thing sept.md",
-    "0_shared/1_obsidian_vault/misc resources.md",
-    "0_shared/1_obsidian_vault/software stuff.md",
-    "0_shared/1_obsidian_vault/twitter threads save.md",
-    "0_shared/1_obsidian_vault/papers to download.md",
-    "0_shared/1_obsidian_vault/random bookmarks.md",
-    "0_shared/1_obsidian_vault/youtube stuff.md",
-    "0_shared/1_obsidian_vault/browser tabs from yesterday.md",
-    "0_shared/1_obsidian_vault/read this later stuff.md",
-    "0_shared/1_obsidian_vault/that thing from earlier.md",
-    "0_shared/1_obsidian_vault/pre-weekend thing.md",
-    "0_shared/1_obsidian_vault/quick catchup w S.md",
-    "0_shared/1_obsidian_vault/thurs w big prof.md",
-    "0_shared/1_obsidian_vault/Untitled.canvas",
-    "0_shared/1_obsidian_vault",
-    "0_shared/1_obsidian_vault_clean"
+    "0_shared/organised_notes/todo/Ethics Application Clarification Regarding Pregnant Participants.md",
+    "0_shared/organised_notes/general/ideas/Thoughts on Longitudinal Data Analysis.md",
+    "0_shared/organised_notes/thesis/chapter_1/ideas/Moon Phases and Lifestyle Quit Rates.md",
+    "0_shared/organised_notes/thesis/chapter_1/ideas/Potential Research on Vaping as a Gateway Back to Smoking.md",
+    "0_shared/organised_notes/general/ideas/Social Media Sentiment Analysis During Quit Attempts.md",
+    "0_shared/organised_notes/general/ideas/Observations and Chaos Theory A Cats Perspective.md",
+    "0_shared/organised_notes/todo/Cancer Research Foundation Grants for Smoking Cessation Studies.md",
+    "0_shared/organised_notes/general/ideas/Humorous Lab Presentation Ideas.md",
+    "0_shared/organised_notes/todo/Dreamt_Interaction_Effects.md",
+    "0_shared/organised_notes/todo/App Battery Drain Issue.md",
+    "0_shared/organised_notes/thesis/chapter_1/ideas/Hypothesis on Income and Smoking Relationship.md",
+    "0_shared/organised_notes/general/tools/Useful Writing and Productivity Tools.md",
+    "0_shared/organised_notes/general/tools",
+    "0_shared/organised_notes/thesis/chapter_1/ideas/Sankey Diagram for Lifestyle Intervention Stages.md",
+    "0_shared/organised_notes/todo/Geographic Clustering of Quit Attempts.md",
+    "0_shared/organised_notes/general/ideas/Reddit Thread Analysis on Quitting.md",
+    "0_shared/organised_notes/thesis/chapter_1/datasets/Missing Data in Evening Check-ins.md",
+    "0_shared/organised_notes/thesis/chapter_1/datasets",
+    "0_shared/organised_notes/todo/Random Thoughts and Questions.md",
+    "0_shared/organised_notes/general/conferences/Epi Conference Notes.md",
+    "0_shared/organised_notes/todo/SRNT Abstract Submission Deadline.md",
+    "0_shared/organised_notes/general/ideas/Conference Notes and Research Jokes.md",
+    "0_shared/organised_notes/thesis/general/ideas/Exercise and Dopamine Idea from YouTube.md",
+    "0_shared/organised_notes/thesis/general/ideas",
+    "0_shared/organised_notes/thesis/general",
+    "0_shared/organised_notes/general/ideas/Stats Nightmare - A Fever Dream.md",
+    "0_shared/organised_notes/thesis/chapter_1/research_papers/Methodology_and_Research_Papers_for_Lifestyle_Study.md",
+    "0_shared/organised_notes/thesis/chapter_1/research_papers",
+    "0_shared/organised_notes/thesis/chapter_2/ideas/Meeting Feedback and Next Steps.md",
+    "0_shared/organised_notes/thesis/chapter_2/ideas",
+    "0_shared/organised_notes/general/ideas/Satirical Conspiracy Theories.md",
+    "0_shared/organised_notes/general/ideas",
+    "0_shared/organised_notes/todo/Update Zotero to APA 7th Edition.md",
+    "0_shared/organised_notes/todo",
+    "0_shared/organised_notes/general/research_papers",
+    "0_shared/organised_notes/general/conferences",
+    "venv/lib/python3.12/site-packages/ipykernel/resources/logo-svg.svg",
+    "venv/lib/python3.12/site-packages/ipykernel/resources/logo-64x64.png",
+    "venv/lib/python3.12/site-packages/ipykernel/resources/logo-32x32.png",
+    "venv/share/jupyter/kernels/python3/logo-svg.svg",
+    "venv/share/jupyter/kernels/python3/logo-64x64.png",
+    "venv/share/jupyter/kernels/python3/logo-32x32.png",
+    "venv/lib/python3.12/site-packages/IPython/core/tests/2x2.png",
+    "venv/lib/python3.12/site-packages/IPython/core/tests/2x2.jpg"
   ]
 }
