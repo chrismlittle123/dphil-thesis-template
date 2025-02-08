@@ -1,0 +1,138 @@
+---
+title: "Test Analysis Notebook"
+author: "Your Name"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: united
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Set working directory relative to the notebook location
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+```
+
+# Introduction
+
+This notebook analyzes the dummy data generated for our test analysis.
+
+# Load Required Packages
+
+```{r load-packages}
+# Load required packages
+library(tidyverse)  # for data manipulation and visualization
+library(knitr)      # for nice tables
+library(ggplot2)    # for plotting
+```
+
+# Load and Inspect Data
+
+```{r load-data}
+# Load the dummy data
+load("../2_data/1_raw_data/dummy_data.RData")
+
+# Display the first few rows
+head(dummy_data) %>%
+  kable()
+
+# Basic summary
+summary(dummy_data)
+```
+
+# Exploratory Data Analysis
+
+## Age Distribution
+
+```{r age-distribution}
+# Create histogram of age distribution
+ggplot(dummy_data, aes(x = age)) +
+  geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
+  labs(title = "Age Distribution",
+       x = "Age",
+       y = "Count") +
+  theme_minimal()
+
+# Age distribution by group
+ggplot(dummy_data, aes(x = group, y = age, fill = group)) +
+  geom_boxplot() +
+  labs(title = "Age Distribution by Group",
+       x = "Group",
+       y = "Age") +
+  theme_minimal()
+```
+
+## Score Analysis
+
+```{r score-analysis}
+# Score distribution
+ggplot(dummy_data, aes(x = score)) +
+  geom_density(fill = "lightgreen", alpha = 0.5) +
+  labs(title = "Score Distribution",
+       x = "Score",
+       y = "Density") +
+  theme_minimal()
+
+# Score by group and gender
+ggplot(dummy_data, aes(x = group, y = score, fill = gender)) +
+  geom_boxplot() +
+  labs(title = "Score Distribution by Group and Gender",
+       x = "Group",
+       y = "Score") +
+  theme_minimal()
+```
+
+# Statistical Analysis
+
+## Group Comparisons
+
+```{r group-comparison}
+# T-test comparing scores between groups
+t_test_result <- t.test(score ~ group, data = dummy_data)
+print(t_test_result)
+
+# ANOVA including gender
+model <- aov(score ~ group * gender, data = dummy_data)
+summary(model)
+```
+
+## Age Group Analysis
+
+```{r age-group-analysis}
+# Mean scores by age group
+dummy_data %>%
+  group_by(age_group) %>%
+  summarise(
+    mean_score = mean(score),
+    sd_score = sd(score),
+    n = n()
+  ) %>%
+  kable()
+
+# Visualize scores across age groups
+ggplot(dummy_data, aes(x = age_group, y = score, fill = age_group)) +
+  geom_boxplot() +
+  labs(title = "Score Distribution by Age Group",
+       x = "Age Group",
+       y = "Score") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+# Conclusions
+
+This analysis has explored the relationships between scores, age groups, gender, and treatment groups in our dummy dataset. Key findings include:
+
+- Distribution of scores across different groups
+- Age-related patterns
+- Gender differences
+- Treatment effects
+
+# Session Info
+
+```{r session-info}
+sessionInfo()
+``` 
